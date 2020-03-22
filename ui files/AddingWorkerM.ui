@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>addingWorker</class>
+ <widget class="QMainWindow" name="addingWorker">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>271</width>
+    <height>193</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Adding worker</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #3a3a47;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="lbl_title">
+    <property name="geometry">
+     <rect>
+      <x>24</x>
+      <y>30</y>
+      <width>217</width>
+      <height>37</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="font">
+     <font>
+      <family>Century Gothic</family>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="whatsThis">
+     <string/>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Last step:</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_add">
+    <property name="geometry">
+     <rect>
+      <x>558</x>
+      <y>666</y>
+      <width>163</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Century Gothic</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  background-color: rgb(255, 171, 2);
+  border: none;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+QPushButton:hover{
+	background-color: rgb(255, 137, 2);
+	color: rgb(217, 217, 217);
+}</string>
+    </property>
+    <property name="text">
+     <string>add/change</string>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cb_type">
+    <property name="geometry">
+     <rect>
+      <x>36</x>
+      <y>84</y>
+      <width>199</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Century Gothic</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #FFF;</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Choose maneger</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="lbl_add">
+    <property name="geometry">
+     <rect>
+      <x>66</x>
+      <y>132</y>
+      <width>133</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Century Gothic</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  background-color: rgb(255, 171, 2);
+  border: none;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+QPushButton:hover{
+    background-color: rgb(255, 137, 2);
+    color: rgb(217, 217, 217);
+}</string>
+    </property>
+    <property name="text">
+     <string>Add</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

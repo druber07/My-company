@@ -1,0 +1,25 @@
+person:
+    name(first and second)
+    type
+    id
+    birthday
+    start day
+    salary(basic salary, bonus for salary)
+    password
+
+        manager:
+            number of buyers
+            number of programers
+            number of designers
+
+        worker(Designer, Programmer):
+            hours worked per day
+            for bonus
+            managers mame
+
+
+pyuic5 -x addingN1.ui -o addingN1.py        
+
+self.tw_workerShow.setItem(0,0, QTableWidgetItem("Name"))
+import sys
+from PyQt5.QtWidgets import QTableWidgetItem
